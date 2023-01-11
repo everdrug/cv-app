@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang-"en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width-device-width, initial-scale-1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="icon-bar">
+                    <a href="https://docs.nginx.com/">
+                        <img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg"
+                            width="50" height="50" title="Tutorial: Nginx + Docker">
+                    </a>
+                </span>
+                <span class="icon-bar">
+                    <a href="https://docs.docker.com/">
+                        <img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png"
+                            width="50" height="50" title="Tutorial: Nginx + Docker">
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="md-margin-top">
+            <h2>Welcome to Nginx Tutorial!</h2>
+            <div class="container sm-margin-top">
+                <div class="row text-center lg-margin-bottom">
+                    <h1>Nginx Tutorial (1)</h1>
+                    <h3 class="text-muted">
+                        Deploying a simple static web server using Nginx with Docker
+                    </h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <h2>Install Docker</h2>
+                        <p class="text-muted">
+                            Need docker installed on the working machine. There are a lot of documents/tutorials
+                            available online explaining how to install and user docker. See 
+                            <a href="https://docs.docker.com/get-docker/">docker document</a> for example.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Nginx Configuration File</h2>
+                        <p class="text-muted">
+                            Nginx has a master process and multiple worker processes. Master process maintains
+                            the worker processes based on the provided configuration file, and worker processes
+                            process the requests. Therefore, we need to provide a configuration file.
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <h2>Web Site</h2>
+                        <p class="text-muted">
+                            Nginx can be used for different purposes, such as web server, load balancer, api gateway,
+                            reverse proxy and so on. In this first tutorial, we demonstrate how to deploy a static
+                            web server using Nginx and docker. Therefore, we need some web pages.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Dockerfile</h2>
+                        <p class="text-muted">
+                            As we deploy our Nginx web server using docker, we need a dockerfile to configure how
+                            to build our docker image.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
